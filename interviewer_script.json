@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "line": "لو عندك dataset وعايز تعمل train لـ model، إيه أهمية إنك تقسم الـ data لـ training, validation, و testing sets؟ وإيه الفرق بينهم؟"
+    },
+    {
+      "line": "في الـ Python، لو بتستخدم مكتبة زي NumPy، إزاي تعمل element-wise multiplication بين اتنين arrays؟ إيه الـ operator اللي بتستخدمه؟"
+    },
+    {
+      "line": "لو بتستخدم TensorFlow أو PyTorch، إزاي بتعمل custom training loop بدل ما تستخدم الـ model.fit() أو الـ trainer.train() الجاهزة؟ إيه السيناريوهات اللي ممكن تحتاج فيها تعمل كده؟"
+    },
+    {
+      "line": "عندك classification model أداءه كويس جداً على الـ training data بس وحش على الـ validation data. إيه الأسباب المحتملة للمشكلة دي وإزاي ممكن تحلها؟"
+    },
+    {
+      "line": "لو دربت image classification model وعايز تعمل له deploy عشان يستقبل صور من API ويرجع الـ prediction. إيه الـ components الأساسية اللي هتحتاجها في الـ system بتاعك؟"
+    },
+    {
+      "line": "تخيل إنك محتاج تعمل deploy لـ recommendation system بيخدم آلاف الـ users في الـ MENA region. الـ system ده محتاج يعمل real-time predictions بناءً على الـ user activity. إيه الـ architecture اللي ممكن تفكر فيها؟ إزاي هتتعامل مع الـ latency والـ scalability؟ وإيه التحديات اللي ممكن تقابلك في الـ region دي بالذات (زي الـ infrastructure أو الـ data locality)؟"
+    },
+    {
+      "line": "عندك model بيعمل prediction لأسعار حاجة معينة، والـ data اللي بتجيلك فيها missing values كتير وكمان outliers. الـ business محتاج الـ predictions دي تكون دقيقة جداً ومفيش مجال لأخطاء كبيرة. إزاي هتعالج الـ missing values والـ outliers دي بطريقة متقدمة عشان تضمن أحسن أداء للـ model؟ وإيه الـ trade-offs بين الطرق المختلفة؟"
+    }
+  ]
+}
